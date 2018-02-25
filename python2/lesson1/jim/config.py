@@ -7,7 +7,6 @@ USER = 'user'
 ACCOUNT_NAME = 'account_name'
 RESPONSE = 'response'
 ERROR = 'error'
-
 # Значения
 PRESENCE = 'presence'
 
@@ -20,3 +19,5 @@ SERVER_ERROR = 500
 
 # Кортеж из кодов ответов
 RESPONSE_CODES = (BASIC_NOTICE, OK, ACCEPTED, WRONG_REQUEST, SERVER_ERROR)
+# Кортеж из ключей
+KEY_TUPLE = (ACTION, TIME, USER, ACCOUNT_NAME, RESPONSE, ERROR)
